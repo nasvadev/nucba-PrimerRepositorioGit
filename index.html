@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 3: Mi primer repositorio en Git</title>
+  </head>
+  <body>
+    <div class="mi_perfil">
+      <h1>Mi perfil</h1>
+      <img src="/mi-foto.jpg" alt="Mi foto" />
+      <hr />
+      <ul>
+        <li>Nombre: Natalia</li>
+        <li>Apellido: Vazquez</li>
+        <li>Edad: 33 años</li>
+        <li>Correo electrónico: vazqueznatalia.s.@hotmail.com</li>
+      </ul>
+      <hr />
+      <h2>Profesión</h2>
+      <p>Traductora Técnica y Audiovisual EN<>ES.</p>
+    </div>
+    <hr />
+    <h2>Formulario de contacto</h2>
+    <form>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" placeholder="María" required />
+      <br />
+      <br />
+      <label for="phone">Teléfono:</label>
+      <input
+        type="number"
+        id="name"
+        placeholder="sin código de área"
+        required
+      />
+      <br />
+      <br />
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" placeholder="maria@gmail.com" required />
+      <br />
+      <br />
+      <hr />
+      <h2>Género</h2>
+      <label for="femenino">Femenino</label>
+      <input type="radio" id="femenino" name="gender" />
+      <br />
+      <label for="masculino">Masculino</label>
+      <input type="radio" id="masculino" name="gender" />
+      <br />
+      <label for="otro">Otro</label>
+      <input type="radio" id="otro" name="gender" /> <br />
+      <br />
+      <hr />
+      <h2>Intereses</h2>
+      <label for="music">Música</label>
+      <input type="checkbox" id="music" />
+      <br />
+      <label for="movies">Películas</label>
+      <input type="checkbox" id="movies" />
+      <br />
+      <label for="sports">Deportes</label>
+      <input type="checkbox" id="sports" />
+      <br />
+      <br />
+      <hr />
+      <h2>Juguemos</h2>
+      <select value="juguemos">
+        <option>Piedra</option>
+        <option>Papel</option>
+        <option>Tijera</option>
+      </select>
+      <br />
+      <br />
+      <hr />
+      <h2>¿Dónde y cuándo nos conocimos?</h2>
+      <label for="textarea"
+        >Escribí un breve texto de cuándo y dónde nos conocimos.</label
+      >
+      <br />
+      <br />
+      <textarea
+        id="textarea"
+        placeholder="Nos conocimos..."
+        cols="47"
+        rows="10"
+      ></textarea>
+      <br />
+      <br />
+      <button class="submit">Enviar</button>
+    </form>
+  </body>
+</html>
